@@ -57,6 +57,9 @@ export default function Movie() {
                     </div>
                 )
             case "reviews":
+                if (reviews.length === 0) {
+                    return "No reviews yet"
+                }
                 return (
                     <div className="reviews">
                         {reviews.map((review, index) => (
