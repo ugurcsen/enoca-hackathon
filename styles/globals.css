@@ -52,6 +52,18 @@ html, body {
     margin-bottom: 20px;
 }
 
+.search-area form {
+    position: relative;
+}
+
+.search-area svg{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    height: 20px;
+    color: #67686D;
+}
+
 .search-input::placeholder {
     color: #67686D;
 }
